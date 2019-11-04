@@ -26,13 +26,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Middleware and Routing
+
 - [ ] Describe Middleware?
+     
+     Intermediary request handler functions that deal with a small chunk of the work performed
+     on a request.
 
 - [ ] Describe a Resource?
 
+    A model, collection of related data objects that represent a single entity that can be
+    named
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    A 200 response code and the data requested
+
 - [ ] How can we partition our application into sub-applications?
+
+    Using express.Router to create a router object for creating self-contained routes
+    in separate modules that can be imported to a the main module.
 
 ## Project Setup
 
